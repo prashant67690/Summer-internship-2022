@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Merriweather&family=Montserrat:wght@100;400;700;900&family=Roboto&family=Sacramento&family=Titillium+Web&family=Ubuntu&family=Work+Sans:wght@500&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background:#f4f4f4;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    font-size: 2rem;
+    font-weight:600;
+}
+
+h3{
+   font-size: 1.3rem;
+}
+
+p{
+    font-size:1.7rem;
+    line-height: 1.5;
+}
+
+/* border section */
+#top{
+    padding:2rem;
+    margin:1rem;
+    font-size: 1.2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 14px;
+    width: 300px;
+    height: 100vh;
+}
+
+#top .navbar h1{
+    font-size:1.7rem;
+    padding-bottom: 1rem;
+}
+
+#top .navbar ul{
+    list-style:none;
+}
+
+#top .navbar ul li{
+    padding:0.5rem;
+    width:100%;
+    font-weight: 600;
+}
+
+#top .navbar ul li a{
+    text-decoration: none;
+    color:black;
+}
+
+#top .navbar ul li ul li a{
+     font-weight:500;
+     text-align: center;
+}
+
+#top .navbar ul li a:hover,#top .navbar ul li button:hover{
+   opacity: 0.8;
+}
+
+#top .navbar ul li button{
+        font-size: 1.2rem;
+        border: none;
+        outline: none;
+        color:black;
+        text-align: left;
+        background-color: inherit;
+        font-family: inherit; 
+        margin: 0;   
+}
+
+
+/* content section styling */
+#content {
+    border-left:#333 1px solid;
+    padding:1.5rem;
+    position: absolute;
+    top:0;
+    left:300px;
+} 
+
+#content .main-heading{
+    border-bottom:1px #333 solid;
+    padding-bottom: 1rem;
+    margin-bottom:2rem;
+}
+#content .main-heading h1{
+    font-size: 3.5rem;
+
+}
+
+#content .main-heading p{
+    font-size:2rem;
+}
+
+/* heading styling */
+
+#overview h2,#web h2{
+    padding-bottom: 1rem;
+    border-bottom: 1px #333 solid;
+    margin-bottom:0.5rem;
+}
+
+#basic,#web{
+    margin-top: 3rem;
+    
+}
+
+#basic h2,#basic h3{
+    padding-top:1rem;
+    border-bottom: #333 1px solid;
+    padding-bottom:1rem;
+    margin-bottom: 1rem;
+}
+
+#basic h3{
+    padding-top:1.2rem;
+    padding-bottom:0.4rem;
+}
+
+#web .new-div{
+    margin-bottom:1rem;
+}
+
+#box-1,#box-2{
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+#web .box h3{
+    border-bottom: #333 1px solid;
+}
+
+
+
+#gist h2,#resource h2{
+    padding-top:1rem;
+    border-bottom: #333 1px solid;
+    padding-bottom:1rem;
+    margin-bottom: 1rem;
+}
+
+#resource a{
+    text-decoration: none;
+    font-size:1.5rem;
+    display:block;
+    padding:1rem;
+}
+
+footer{
+    background-color: aquamarine;
+    text-align: center;
+    padding: 2rem;
+    position:absolute;
+    
+}
+
+
+/* image and styling with the page */
+
+#overview img,.box img{
+    width:100%;
+    padding-bottom: 0.75rem;
+}
+
+.box img{
+    height: 500px;
+    
+}
+
+#box-1 img,#box-2 img{
+    height:400px;
+    width:70%;
+    padding-bottom: 1rem;
+    padding-top:1.5rem;
+}
+
