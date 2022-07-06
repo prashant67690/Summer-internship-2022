@@ -33,6 +33,6 @@
 - git pull internally executes two commands - git fetch and git merge which fetches objects from remote branch and merge them with the local code.
 
 
-# cheat sheet of git most used git commands
+# cheat sheet of git's most used commands
 ![39](https://user-images.githubusercontent.com/80661803/177531790-67536d16-9044-431f-ae0e-4606c25e6b92.png)
 
