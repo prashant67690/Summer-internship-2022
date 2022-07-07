@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seond question</title>
+    <style>
+     form{
+          height:150px;
+          width:250px;
+          padding:20px;
+        border:1px #333 solid;
+     }
+
+     input{
+        display: inline;
+     }
+
+     .box{
+        padding:10px;
+
+     }
+     button{
+        padding:10px;
+        margin-top:5px;  ;
+     }
+
+     .result{
+        display:none;
+     }
+
+    </style>
+</head>
+<body>
+    <form>
+        <div class="box">
+            <label for="firstNumber">1st Number:</label>
+            <input type="text" id="firstNumber" name="numberOne">
+        </div>
+        <div class="box">
+            <label for="secondNumber">2nd Number:</label>
+            <input type="text" id="secondNumber" name="numberTwo">
+        </div>
+        <button id="btn-1" type="button"> Multiply</button>
+        <button id="btn-2" type="button">Divide</button>
+        <div class="result" id="resultDiv">
+          <h1>the result is:<span id="finalResult"></span></h1>
+        </div>
+    </form>
+     
+     <script src="index.js"></script>
+</body>
+</html>
