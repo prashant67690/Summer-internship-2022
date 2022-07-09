@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Merriweather&family=Montserrat:wght@100;400;700;900&family=Roboto&family=Sacramento&family=Titillium+Web&family=Ubuntu&family=Work+Sans:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --first:#F3F1F5;
+    --second:#F0D9FF;
+    --third:#BFA2DB;
+    --fourth:#7F7C82;
+}
+
+body{
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+}
+/* utlity classes */
+.logo a{
+    color:black;
+    font-family:  'Ubuntu', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.2;
+    transition: all 0.3s;
+    margin:1rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.logo a:hover{
+    border:#333 1px solid;
+    border-radius: 10px;
+    
+}
+
+.dark-btn{
+    color:black;
+    border:#333 2px solid;
+    padding:1rem 2rem;
+    border-radius: 15px;
+    display: inline-block;
+    transition: all 0.2s; 
+    margin-left: 18rem;
+}
+
+.dark-btn:hover{
+    background-color: #333;
+    color: var(--first);
+}
+
+/* navbar and header part styling code */
+
+#head{
+    background-color: var(--first);
+}
+
+#head .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#head .navbar ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    margin-right:1rem;
+}
+
+#head .navbar ul li{
+    padding:1.5rem;
+}
+
+#head .navbar ul li a{
+    text-decoration: none;
+    color:black;
+}
+
+#head .navbar ul li:hover{
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+
+/* styling of the first section begins */
+#first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--first);
+    padding-bottom: 6rem;
+}
+
+#first .div-content{
+    flex:1;
+}
+
+#first .div-content h1{
+    font-size: 4rem;
+    padding: 1rem;
+    margin-top: 3rem;
+    line-height: 1.5;
+
+}
+
+#first .div-content p{
+    font-size: 2.5rem;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+#first .animation{
+    flex:1;
+}
+
+#container{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    margin: auto;
+    transform: rotate(45deg);
+    top: 0; 
+    bottom: 0; 
+    left: 1000px; 
+    right: 1000px;
+}
+
+
+/* main section stylings here */
+
+
+
+/* footer styling section*/
+
+#footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--first);
+}
+
+#footer .div-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#footer .address,#footer .contact-list,#footer .links{
+    padding:2rem;
+    margin:2rem;
+}
+
+#footer .address h3{
+    padding-bottom:2rem;
+}
+
+#footer .address h3,#footer .contact-list h3,#footer .links h3{
+    font-size:2rem;
+    font-weight:500;
+    margin-bottom: 1rem;
+}
+#footer .address h4{
+    font-size:1rem;
+    line-height: 2;
+    font-weight: 400;
+}
+
+
+#footer .contact-list ul,#footer .links ul{
+    list-style: none;
+    padding: 2rem;
+    
+}
+
+#footer .contact-list ul li{
+    align-items: center;
+}
+
+#footer .links h3{
+    padding-top:2.5rem;
+}
+
+#footer .links ul li{
+    padding:0.4rem;
+}
+#footer .links ul li a{
+    color:#333;
+}
