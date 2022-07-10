@@ -8,11 +8,14 @@
     --second:#F0D9FF;
     --third:#BFA2DB;
     --fourth:#7F7C82;
+    --fifth:#C4D7E0;
+    --sixth:#A2B5BB;
 }
 
 body{
     font-size: 1rem;
     font-family: 'Roboto', sans-serif;
+    background-color: var(--fifth);
 }
 
 h1,h2,h3,h4,h5,h6,p{
@@ -66,7 +69,7 @@ a{
 /* navbar and header part styling code */
 
 #head{
-    background-color: var(--first);
+    background-color: var(--sixth);
 }
 
 #head .navbar {
@@ -95,4 +98,67 @@ a{
 #head .navbar ul li:hover{
     opacity: 0.8;
     cursor: pointer;
+}
+
+
+/* the main info starts from here */
+
+#main-create{
+    background-color: var(--fifth);
+    height: 100vh;
+}
+
+#main-create .container{
+    margin:auto;
+    max-width: 1200px;
+}
+
+#main-create h1{
+    padding-top:2rem;
+    font-size: 2rem;
+    border-bottom: #333 2px solid;
+    line-height: 2;
+}
+
+#main-create form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+#main-create form .form-wrap{
+    padding:1rem;
+}
+
+#main-create form .form-wrap label{
+    font-size:2.5rem;
+    display: block;
+    
+}
+
+
+#main-create form .form-wrap input,#main-create form .form-wrap textarea{
+    height:2rem;
+    font-size: 1.5rem;
+    width:100%;
+    padding: 1rem;
+}
+
+#main-create form .form-wrap textarea{
+    height: 400px;
+    font-size: 1rem;
+}
+
+
+#main-create form button{
+    display: inline-block;
+    border:none;
+    outline: none;
+    background-color: #333;
+    color:white;
+    width:100px;
+    margin: auto;
+    padding:1rem 1rem;
+    border-radius: 10px;
 }
