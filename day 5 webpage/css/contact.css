@@ -90,8 +90,6 @@ a{
 #head .navbar ul li a{
     text-decoration: none;
     color:black;
-    padding:2rem 0;
-    overflow: hidden;
 }
 
 #head .navbar ul li:hover{
@@ -100,107 +98,76 @@ a{
 }
 
 
-/* styling of the first section begins */
-#first{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--first);
-    padding-bottom: 6rem;
-}
+/* contact area styling part */
 
-#first .div-content{
-    flex:1;
-}
-
-#first .div-content h1{
-    font-size: 4rem;
-    padding: 1rem;
-    margin-top: 3rem;
-    line-height: 1.5;
-
-}
-
-#first .div-content p{
-    font-size: 2.5rem;
-    padding: 1rem;
-    margin-top: 1rem;
-}
-
-#first .animation{
-    flex:1;
-}
-
-#container{
-    position: absolute;
-    width: 350px;
-    height: 350px;
-    margin: auto;
-    transform: rotate(45deg);
-    top: 0; 
-    bottom: 0; 
-    left: 1000px; 
-    right: 1000px;
-}
-
-
-/* main section stylings here */
-
-
-
-/* footer styling section*/
-
-#footer {
-    display: flex;
-    justify-content: space-evenly;
-    background-color: var(--first);
-}
-
-#footer .div-1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#main-contact{
+    background-color: var(--second);
+    height:100vh;
+    border-top: #333 1px solid;
     
 }
 
-#footer .address,#footer .contact-list,#footer .links{
-    padding:2rem;
-    margin:2rem;
-}
-
-#footer .address h3{
-    padding-bottom:2rem;
-}
-
-#footer .address h3,#footer .contact-list h3,#footer .links h3{
+#main-contact form .main-heading{
     font-size:2rem;
-    font-weight:500;
-    margin-bottom: 1rem;
-}
-#footer .address h4{
-    font-size:1rem;
-    line-height: 2;
-    font-weight: 400;
+    width:700px;
+    padding:2rem 0;
+    font-weight: 500;
 }
 
+#main-contact form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: #333 2px solid;
+        margin:0 25rem;
+        margin-top:2rem;
+        border-radius: 10px;
+}
 
-#footer .contact-list ul,#footer .links ul{
-    list-style: none;
-    padding: 2rem;
+#main-contact form .form-wrap{
+    padding: 0.5rem;
+
+    max-width: 700px;
+    margin: auto;
+}
+
+#main-contact form .form-wrap label{
+    display: block;
+    margin:0.5rem;
+    max-width: 700px;
+
+    font-size: 1.5rem;
+}
+
+#main-contact form .form-wrap input,#main-contact form .form-wrap textarea{
+      padding-left: 1rem;
+      width:600px;
+      height:25px;
+      outline: none;
+      border: var(--third) 1px solid;
+      padding:1rem;
     
-}
+    }
 
-#footer .contact-list ul li{
-    align-items: center;
-}
+    #main-contact form .form-wrap textarea{
+        height:200px;
+        margin-bottom: 1rem;
+    }
 
-#footer .links h3{
-    padding-top:2.5rem;
-}
+    #main-contact form .form-wrap input:focus,#main-contact form .form-wrap textarea:focus{
+        border: #555 1px solid;
+    }
 
-#footer .links ul li{
-    padding:0.4rem;
-}
-#footer .links ul li a{
-    color:#333;
-}
+    #main-contact form button{
+       border: none;
+        background-color: #333;
+        color:white;
+        padding:1rem 2rem;
+        border-radius: 10px;
+        margin-bottom: 1.5rem;
+    }
+
+    #main-contact form button:hover{
+        background-color: var(--third);
+    }
