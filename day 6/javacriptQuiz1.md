@@ -9,7 +9,7 @@ other than using it for web development its is used in game development, and lot
 
 |let |var|
 
-|-----|-----|
+|---|---|
 
 |let variables cannot be redeclared|var variables can be redeclared|
 
