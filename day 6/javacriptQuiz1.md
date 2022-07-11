@@ -56,3 +56,37 @@ function name([param[, param[, ... param]]]) {
 ```
 
 ## What is DOM?
+
+The Document Object Model (DOM) is the data representation of the objects that comprise the structure and content of a document on the web.
+It represents the page so that programs can change the document structure, style, and content.
+
+---
+
+## JavaScript Programs
+
+### 1.Average of array nums in Javascript?
+
+```JavaScript
+let array = [1,2,3,4,5,6]
+let sum=0;
+array.forEach((element)=>{
+    sum=sum+element;
+})
+
+console.log(sum);
+```
+
+### 2.Print the fibonacci sequence?
+
+```JavaScript
+let n=prompt('enter the value of n');
+let num1=0,num2=1;
+console.log(num1,num2);
+c=num1+num2;
+for(var i=2;i<=n;i++){
+    console.log(c);
+    num1=num2;
+    num2=c;
+    c=num1+num2;
+}
+```
