@@ -7,15 +7,11 @@ other than using it for web development its is used in game development, and lot
 
 ## 2.What is the difference between b/w let and var?
 
-|let |var|
-
-|---|---|
-
-|let variables cannot be redeclared|var variables can be redeclared|
-
-|it is block scoped|it is function scoped|
-
-|hoisting does not occur in let|hoisting can occur in var|
+| let                                | var                             |
+| ---------------------------------- | ------------------------------- |
+| let variables cannot be redeclared | var variables can be redeclared |
+| it is block scoped                 | it is function scoped           |
+| hoisting does not occur in let     | hoisting can occur in var       |
 
 ## 3.Why do we prefer const over var?
 
