@@ -10,10 +10,10 @@ submitButton.addEventListener('click',(e)=>{
     e.preventDefault();
     if(blogTitle.value && blogContent.value){
         myBlog(blogTitle.value,blogContent.value);
-        return;
-    }
+        window.location.href = "http://127.0.0.1:5500/day%205%20webpage/index.html";
+    }else
     alert('Please enter the required deatils correctly ');
-    return;
+    
 })
 
 
