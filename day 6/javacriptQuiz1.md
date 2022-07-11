@@ -1,5 +1,9 @@
 # This is the solution sheet of the first javascript quiz
 
+## Solutions of the theory questions
+
+---
+
 ## 1.What is JavaScript?
 
 javascript is a dynamically typed prograamming language for the web. it was developed by Brendan Eich at netscape.
