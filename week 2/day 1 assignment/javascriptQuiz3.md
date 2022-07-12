@@ -1,4 +1,4 @@
-# This is the solution sheet of the third javascript quiz
+# JavaScript Basic Level Quiz 3
 
 # Solutions of the theory questions
 

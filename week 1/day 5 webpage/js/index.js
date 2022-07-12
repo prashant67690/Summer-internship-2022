@@ -21,6 +21,8 @@ function createBlog(title,content){
 
 // function for deleting the post
 
+    
+
 function removeBlogs(){
     console.log(tobeDeleted);
     Object.keys(localStorage).forEach((key)=>{

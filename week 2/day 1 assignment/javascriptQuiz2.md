@@ -1,4 +1,4 @@
-# This is the solution sheet of the second javascript quiz
+# JavaScript Basic Level Quiz 2
 
 # Solutions of the theory questions
 
