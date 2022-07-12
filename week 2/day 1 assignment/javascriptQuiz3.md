@@ -6,8 +6,17 @@
 
 ## 1.Explain as much as you know about objects in javascript?
 
-Objects, in JavaScript, is the most important data-type and forms the building blocks for modern JavaScript. These objects are quite different from JavaScript’s primitive data-types.generally objects are used to define the real world entites who has some properties and methods
+- A javaScript object is an entity having state and behavior (properties and method). For example: car, pen, bike, chair, glass, keyboard, monitor etc.
 
-An object, is a reference data type. Variables that are assigned a reference value are given a reference or a pointer to that value. That reference or pointer points to the location in memory where the object is stored. The variables don’t actually store the value.
+- JavaScript is an object-based language. Everything is an object in JavaScript.
 
-objects in JavaScript may be defined as an unordered collection of related data, of primitive or reference types, in the form of “key: value” pairs. These keys can be variables or functions and are called properties and methods, respectively, in the context of an object.
+- JavaScript is template based not class based. Here, we don't create class to get the object. But, we direct create objects.
+
+* ways for creating the object in javascript
+  There are 3 ways to create objects.
+
+  1. By object literal
+  2. By creating instance of Object directly (using new keyword)
+  3. By using an object constructor (using new keyword)
+
+2.
