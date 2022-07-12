@@ -182,3 +182,23 @@ obj.prop = 33;
 console.log(obj.prop);
 // output: 42
 ```
+
+## programs
+
+```javascript
+var numberArray = [];
+// this function gives the random number in the range of min and max
+function randomGenarator(min, max) {
+  return Math.floor(Math.random() * (max - min + 1) + min);
+}
+
+const number1 = randomGenarator(-100, 0);
+const number2 = randomGenarator(800, 900);
+
+numberArray.push(number1);
+numberArray.push(number2);
+
+let i = Math.floor(Math.random() * 2);
+
+console.log(numberArray[i]);
+```
