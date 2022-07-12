@@ -162,7 +162,7 @@ console.log("Employee=> ", employee);
 console.log("New Employee=> ", newEmployee);
 ```
 
-## what is Object.freeze()
+## 7.what is Object.freeze()
 
 - The Object.freeze() method freezes an object.
 - A frozen object can no longer be changed
