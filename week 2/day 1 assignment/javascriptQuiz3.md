@@ -147,7 +147,7 @@ const arr = [1, 2, 3, 4, 5];
 console.log(arr.some((element) => element % 2 === 0)); // Output :- true
 ```
 
--every:-
+- every:-
 
 ```javascript
 const arr = [1, 2, 3, 4, 5];
