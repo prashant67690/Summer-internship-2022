@@ -79,10 +79,9 @@ a{
     
 }
 
-.hide{
-    visibility: hidden;
+.bin{
+    background: url('../dustbin.png') no-repeat center center/cover;
 }
-
 /* navbar and header part styling code */
 
 #head{

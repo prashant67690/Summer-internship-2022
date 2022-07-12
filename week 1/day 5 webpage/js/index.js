@@ -7,10 +7,11 @@ const selectContainer = document.getElementsByClassName('container')[0];
 function createBlog(title,content){
     let blog = document.createElement('div');
     blog.classList.add('box');
-    let blogTitle = document.createElement('h3');
+    var blogTitle = document.createElement('h3');
     let blogContent = document.createElement('p');
-    let deleteButton = document.createElement('button');
+    var deleteButton = document.createElement('button');
     deleteButton.classList.add('delete-btn');
+    deleteButton.innerHTML="Delete <i class='fa fa-trash-can'></i>"
     blogTitle.innerText=title;
     blogContent.innerHTML=content;
     blog.appendChild(blogTitle);
@@ -19,14 +20,12 @@ function createBlog(title,content){
 }
 
 // function for deleting the post
-const removeBlogs = (toBeDeletedKey)=>{
+
+function removeBlogs(){
+    console.log(tobeDeleted);
     Object.keys(localStorage).forEach((key)=>{
-        if(key === toBeDeletedKey){
-            localStorage.removeItem(key);
-        }
-        else{
-            alert('cant be deleted');
-        }
+        if(key === tobeDeleted)
+        localStorage.removeItem(tobeDeleted);
     })
 }
 
