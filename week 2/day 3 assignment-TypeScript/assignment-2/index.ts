@@ -2,6 +2,7 @@ const imageFirst = document.getElementById('first');
 const imageSecond = document.getElementById('second');
 const imageThrid = document.getElementById('third');
 
-function animate():Animation{
 
-}
+// function imageAnimation():Animation{
+       
+// }
